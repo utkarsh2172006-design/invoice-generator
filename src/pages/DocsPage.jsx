@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import {
-  FileText, Zap, Shield, Download, Clock, ArrowRight,
+  FileText, Zap, Shield, Download, ArrowRight,
   Github, ExternalLink, Code2, Layers, Terminal,
   CheckCircle2, BookOpen, Users, Lock,
 } from 'lucide-react'

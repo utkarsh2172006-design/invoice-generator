@@ -7,7 +7,7 @@ import './index.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       {/* Animated background — fixed, behind all content */}
       <div className="animated-bg" aria-hidden="true">
         <div className="bg-blob bg-blob-1" />
